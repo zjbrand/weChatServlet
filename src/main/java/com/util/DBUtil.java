@@ -11,7 +11,7 @@ public class DBUtil {
 
     static {
         try {
-            Class.forName("com.mysql.cj.jdbc.Driver"); // 新版驱动
+            Class.forName("com.mysql.cj.jdbc.Driver"); // 新しいバージョン
         } catch (Exception e) {
             e.printStackTrace();
         }
