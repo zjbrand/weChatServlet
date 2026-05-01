@@ -40,7 +40,7 @@ public class Add extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
+		//feature ブランチで修正しました
 		//response.getWriter().append("posttttt ");
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
